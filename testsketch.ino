@@ -23,9 +23,9 @@ SHT3X sht30(0x44);
 #define OLED_RESET -1    // Reset pin # (-1 if shared with Arduino reset pin)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-// Define the analog input pin connected to the MQ-2 gas sensor
+// Define the analog input pin connected to the LDR
 const int analogInPin = A0;
-int sensorValue = 0; // Variable to store ADC readings from the gas sensor
+int sensorValue = 0; // Variable to store ADC readings from the LDR
 
 void setup() {
   Serial.begin(9600); // Initialize serial communication at 9600 baud
