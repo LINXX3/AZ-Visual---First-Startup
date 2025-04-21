@@ -2,6 +2,8 @@
 
 This repository contains an Arduino test sketch designed for the AZ-Visual board. The sketch reads light intensity values using an integrated Light Dependent Resistor (LDR) and displays the results on an onboard OLED screen. Additionally, it retrieves and displays temperature and humidity data from the onboard SHT3X sensor.
 
+![21](https://github.com/user-attachments/assets/0d3e0d42-76d3-4713-99b4-570f45314ab2)
+
 ## Overview
 
 The AZ-Visual board simplifies prototyping by integrating essential components, including:
