@@ -1,4 +1,4 @@
-# AZ-Visual LDR Test Sketch by Niklas Heinzel
+# AZ-Visual First Startup Test Sketch by Niklas Heinzel
 
 This repository contains an Arduino test sketch designed for the AZ-Visual board. The sketch reads light intensity values using an integrated Light Dependent Resistor (LDR) and displays the results on an onboard OLED screen. Additionally, it retrieves and displays temperature and humidity data from the onboard SHT3X sensor.
 
